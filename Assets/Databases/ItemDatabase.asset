@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42cdbd49c306234884dd1877a3a8980, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  allItems:
+  - itemID: health_potion_small
+    itemName: Small Health Potion
+    description: A common brew that restores a minor amount of health.
+    icon: {fileID: 21300000, guid: 17ea03cf67d425441877b510cf36dd4c, type: 3}
+    itemType: 2
+    rarity: 0
+    isUnique: 0
+    requiredLevel: 1
+    requiredStrength: 0
+    requiredAgility: 0
+    requiredIntelligence: 0
+    requiredVitality: 0
+    requiredClasses: []
+    isStackable: 1
+    maxStackSize: 20
+    goldValue: 10
+    equipSlot: 5
+    isTwoHanded: 0
+    minBaseArmor: 0
+    maxBaseArmor: 0
+    minBaseDamage: 0
+    maxBaseDamage: 0
+    inherentStrength: 0
+    inherentAgility: 0
+    inherentIntelligence: 0
+    inherentVitality: 0
+    potentialAffixPool: {fileID: 0}
+    predefinedAffixes: []
+    generatedRarity: 0
+    generatedAffixes: []
+    rolledBaseArmor: 0
+    rolledBaseDamage: 0
+    generatedName: 
+    statusEffectIDOnUseOrHit: 
+    statusEffectDuration: 0
+    statusEffectValue: 0
+    statusEffectChance: 100
+    iconCommon: {fileID: 0}
+    iconUncommon: {fileID: 0}
+    iconMagic: {fileID: 0}
+    iconRare: {fileID: 0}
+    iconEpic: {fileID: 0}
+    iconSet: {fileID: 0}
+    iconUnique: {fileID: 0}
+    iconLegendary: {fileID: 0}
+    worldSpriteCommon: {fileID: 21300000, guid: 17ea03cf67d425441877b510cf36dd4c, type: 3}
+    worldSpriteUncommon: {fileID: 0}
+    worldSpriteMagic: {fileID: 0}
+    worldSpriteRare: {fileID: 0}
+    worldSpriteEpic: {fileID: 0}
+    worldSpriteSet: {fileID: 0}
+    worldSpriteUnique: {fileID: 0}
+    worldSpriteLegendary: {fileID: 0}
+  - itemID: mana_potion_small
+    itemName: Small Mana Potion
+    description: A common brew that restores a minor amount of mana.
+    icon: {fileID: 0}
+    itemType: 2
+    rarity: 0
+    isUnique: 0
+    requiredLevel: 1
+    requiredStrength: 0
+    requiredAgility: 0
+    requiredIntelligence: 0
+    requiredVitality: 0
+    requiredClasses: []
+    isStackable: 1
+    maxStackSize: 20
+    goldValue: 15
+    equipSlot: 5
+    isTwoHanded: 0
+    minBaseArmor: 0
+    maxBaseArmor: 0
+    minBaseDamage: 0
+    maxBaseDamage: 0
+    inherentStrength: 0
+    inherentAgility: 0
+    inherentIntelligence: 0
+    inherentVitality: 0
+    potentialAffixPool: {fileID: 0}
+    predefinedAffixes: []
+    generatedRarity: 0
+    generatedAffixes: []
+    rolledBaseArmor: 0
+    rolledBaseDamage: 0
+    generatedName: 
+    statusEffectIDOnUseOrHit: 
+    statusEffectDuration: 0
+    statusEffectValue: 0
+    statusEffectChance: 100
+    iconCommon: {fileID: 0}
+    iconUncommon: {fileID: 0}
+    iconMagic: {fileID: 0}
+    iconRare: {fileID: 0}
+    iconEpic: {fileID: 0}
+    iconSet: {fileID: 0}
+    iconUnique: {fileID: 0}
+    iconLegendary: {fileID: 0}
+    worldSpriteCommon: {fileID: 0}
+    worldSpriteUncommon: {fileID: 0}
+    worldSpriteMagic: {fileID: 0}
+    worldSpriteRare: {fileID: 0}
+    worldSpriteEpic: {fileID: 0}
+    worldSpriteSet: {fileID: 0}
+    worldSpriteUnique: {fileID: 0}
+    worldSpriteLegendary: {fileID: 0}
+  - itemID: poison_potion_small
+    itemName: Small Poison Potion
+    description: A common brew that restores a minor amount of mana.
+    icon: {fileID: 21300000, guid: 1230ba8bdfd0b6344b0d8497267ab1aa, type: 3}
+    itemType: 2
+    rarity: 0
+    isUnique: 0
+    requiredLevel: 1
+    requiredStrength: 0
+    requiredAgility: 0
+    requiredIntelligence: 0
+    requiredVitality: 0
+    requiredClasses: []
+    isStackable: 1
+    maxStackSize: 20
+    goldValue: 15
+    equipSlot: 5
+    isTwoHanded: 0
+    minBaseArmor: 0
+    maxBaseArmor: 0
+    minBaseDamage: 0
+    maxBaseDamage: 0
+    inherentStrength: 0
+    inherentAgility: 0
+    inherentIntelligence: 0
+    inherentVitality: 0
+    potentialAffixPool: {fileID: 0}
+    predefinedAffixes: []
+    generatedRarity: 0
+    generatedAffixes: []
+    rolledBaseArmor: 0
+    rolledBaseDamage: 0
+    generatedName: 
+    statusEffectIDOnUseOrHit: 
+    statusEffectDuration: 0
+    statusEffectValue: 0
+    statusEffectChance: 100
+    iconCommon: {fileID: 0}
+    iconUncommon: {fileID: 0}
+    iconMagic: {fileID: 0}
+    iconRare: {fileID: 0}
+    iconEpic: {fileID: 0}
+    iconSet: {fileID: 0}
+    iconUnique: {fileID: 0}
+    iconLegendary: {fileID: 0}
+    worldSpriteCommon: {fileID: 21300000, guid: 1230ba8bdfd0b6344b0d8497267ab1aa, type: 3}
+    worldSpriteUncommon: {fileID: 0}
+    worldSpriteMagic: {fileID: 0}
+    worldSpriteRare: {fileID: 0}
+    worldSpriteEpic: {fileID: 0}
+    worldSpriteSet: {fileID: 0}
+    worldSpriteUnique: {fileID: 0}
+    worldSpriteLegendary: {fileID: 0}
+  - itemID: old_war_sword
+    itemName: Old War Sword
+    description: A worn-out sword, that has seen much of battle.
+    icon: {fileID: 0}
+    itemType: 0
+    rarity: 0
+    isUnique: 0
+    requiredLevel: 1
+    requiredStrength: 0
+    requiredAgility: 0
+    requiredIntelligence: 0
+    requiredVitality: 0
+    requiredClasses: []
+    isStackable: 0
+    maxStackSize: 0
+    goldValue: 25
+    equipSlot: 6
+    isTwoHanded: 0
+    minBaseArmor: 0
+    maxBaseArmor: 0
+    minBaseDamage: 0
+    maxBaseDamage: 0
+    inherentStrength: 0
+    inherentAgility: 0
+    inherentIntelligence: 0
+    inherentVitality: 0
+    potentialAffixPool: {fileID: 0}
+    predefinedAffixes: []
+    generatedRarity: 0
+    generatedAffixes:
+    - type: 8
+      value: 4
+    rolledBaseArmor: 0
+    rolledBaseDamage: 0
+    generatedName: 
+    statusEffectIDOnUseOrHit: 
+    statusEffectDuration: 0
+    statusEffectValue: 0
+    statusEffectChance: 100
+    iconCommon: {fileID: 0}
+    iconUncommon: {fileID: 0}
+    iconMagic: {fileID: 0}
+    iconRare: {fileID: 0}
+    iconEpic: {fileID: 0}
+    iconSet: {fileID: 0}
+    iconUnique: {fileID: 0}
+    iconLegendary: {fileID: 0}
+    worldSpriteCommon: {fileID: 0}
+    worldSpriteUncommon: {fileID: 0}
+    worldSpriteMagic: {fileID: 0}
+    worldSpriteRare: {fileID: 0}
+    worldSpriteEpic: {fileID: 0}
+    worldSpriteSet: {fileID: 0}
+    worldSpriteUnique: {fileID: 0}
+    worldSpriteLegendary: {fileID: 0}
+  - itemID: warped_shortbow
+    itemName: Warped Shortbow
+    description: Left to the elements. Has seen better days.
+    icon: {fileID: 0}
+    itemType: 0
+    rarity: 0
+    isUnique: 0
+    requiredLevel: 1
+    requiredStrength: 0
+    requiredAgility: 0
+    requiredIntelligence: 0
+    requiredVitality: 0
+    requiredClasses: []
+    isStackable: 0
+    maxStackSize: 0
+    goldValue: 10
+    equipSlot: 6
+    isTwoHanded: 0
+    minBaseArmor: 0
+    maxBaseArmor: 0
+    minBaseDamage: 0
+    maxBaseDamage: 0
+    inherentStrength: 0
+    inherentAgility: 0
+    inherentIntelligence: 0
+    inherentVitality: 0
+    potentialAffixPool: {fileID: 0}
+    predefinedAffixes: []
+    generatedRarity: 0
+    generatedAffixes: []
+    rolledBaseArmor: 0
+    rolledBaseDamage: 0
+    generatedName: 
+    statusEffectIDOnUseOrHit: 
+    statusEffectDuration: 0
+    statusEffectValue: 0
+    statusEffectChance: 100
+    iconCommon: {fileID: 0}
+    iconUncommon: {fileID: 0}
+    iconMagic: {fileID: 0}
+    iconRare: {fileID: 0}
+    iconEpic: {fileID: 0}
+    iconSet: {fileID: 0}
+    iconUnique: {fileID: 0}
+    iconLegendary: {fileID: 0}
+    worldSpriteCommon: {fileID: 0}
+    worldSpriteUncommon: {fileID: 0}
+    worldSpriteMagic: {fileID: 0}
+    worldSpriteRare: {fileID: 0}
+    worldSpriteEpic: {fileID: 0}
+    worldSpriteSet: {fileID: 0}
+    worldSpriteUnique: {fileID: 0}
+    worldSpriteLegendary: {fileID: 0}
+  - itemID: demonic_shortbow
+    itemName: Demonic Shortbow
+    description: A bow warped by dark energies, firing faster than normal.
+    icon: {fileID: 0}
+    itemType: 0
+    rarity: 1
+    isUnique: 0
+    requiredLevel: 1
+    requiredStrength: 0
+    requiredAgility: 0
+    requiredIntelligence: 0
+    requiredVitality: 0
+    requiredClasses: []
+    isStackable: 0
+    maxStackSize: 0
+    goldValue: 40
+    equipSlot: 6
+    isTwoHanded: 0
+    minBaseArmor: 0
+    maxBaseArmor: 0
+    minBaseDamage: 0
+    maxBaseDamage: 0
+    inherentStrength: 0
+    inherentAgility: 0
+    inherentIntelligence: 0
+    inherentVitality: 0
+    potentialAffixPool: {fileID: 0}
+    predefinedAffixes:
+    - affixDefinition: {fileID: 0}
+      value: 0
+    generatedRarity: 0
+    generatedAffixes:
+    - type: 4
+      value: 4
+    - type: 8
+      value: 5
+    - type: 10
+      value: 3
+    rolledBaseArmor: 0
+    rolledBaseDamage: 0
+    generatedName: 
+    statusEffectIDOnUseOrHit: 
+    statusEffectDuration: 0
+    statusEffectValue: 0
+    statusEffectChance: 100
+    iconCommon: {fileID: 0}
+    iconUncommon: {fileID: 0}
+    iconMagic: {fileID: 0}
+    iconRare: {fileID: 0}
+    iconEpic: {fileID: 0}
+    iconSet: {fileID: 0}
+    iconUnique: {fileID: 0}
+    iconLegendary: {fileID: 0}
+    worldSpriteCommon: {fileID: 0}
+    worldSpriteUncommon: {fileID: 0}
+    worldSpriteMagic: {fileID: 0}
+    worldSpriteRare: {fileID: 0}
+    worldSpriteEpic: {fileID: 0}
+    worldSpriteSet: {fileID: 0}
+    worldSpriteUnique: {fileID: 0}
+    worldSpriteLegendary: {fileID: 0}
+  - itemID: demonic_shortbow
+    itemName: Demonic Shortbow
+    description: A bow warped by dark energies, firing faster than normal.
+    icon: {fileID: 0}
+    itemType: 0
+    rarity: 1
+    isUnique: 0
+    requiredLevel: 1
+    requiredStrength: 0
+    requiredAgility: 0
+    requiredIntelligence: 0
+    requiredVitality: 0
+    requiredClasses: []
+    isStackable: 0
+    maxStackSize: 0
+    goldValue: 40
+    equipSlot: 6
+    isTwoHanded: 0
+    minBaseArmor: 0
+    maxBaseArmor: 0
+    minBaseDamage: 0
+    maxBaseDamage: 0
+    inherentStrength: 0
+    inherentAgility: 0
+    inherentIntelligence: 0
+    inherentVitality: 0
+    potentialAffixPool: {fileID: 0}
+    predefinedAffixes: []
+    generatedRarity: 0
+    generatedAffixes:
+    - type: 4
+      value: 4
+    - type: 8
+      value: 5
+    - type: 10
+      value: 3
+    rolledBaseArmor: 0
+    rolledBaseDamage: 0
+    generatedName: 
+    statusEffectIDOnUseOrHit: 
+    statusEffectDuration: 0
+    statusEffectValue: 0
+    statusEffectChance: 100
+    iconCommon: {fileID: 0}
+    iconUncommon: {fileID: 0}
+    iconMagic: {fileID: 0}
+    iconRare: {fileID: 0}
+    iconEpic: {fileID: 0}
+    iconSet: {fileID: 0}
+    iconUnique: {fileID: 0}
+    iconLegendary: {fileID: 0}
+    worldSpriteCommon: {fileID: 0}
+    worldSpriteUncommon: {fileID: 0}
+    worldSpriteMagic: {fileID: 0}
+    worldSpriteRare: {fileID: 0}
+    worldSpriteEpic: {fileID: 0}
+    worldSpriteSet: {fileID: 0}
+    worldSpriteUnique: {fileID: 0}
+    worldSpriteLegendary: {fileID: 0}

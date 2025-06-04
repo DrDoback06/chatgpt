@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2191bb0294ff2104ebfe7575d9caaac6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - createCharacterButton: {fileID: 3364250659101211618, guid: 1a49af83e5e45dd4c8727e796869eef4, type: 3}
+  - playButton: {fileID: 3364250659101211618, guid: 1a49af83e5e45dd4c8727e796869eef4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

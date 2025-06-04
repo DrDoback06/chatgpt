@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10383dac52ea18c4694890a09baead5b, type: 3}
+  m_Name: NewItem
+  m_EditorClassIdentifier: 
+  itemName: 
+  itemType: 0
+  itemRarity: 0
+  sprite: {fileID: 0}
+  isEquippable: 0
+  isStackable: 0
+  maxStackSize: 1
+  gridSize: {x: 0, y: 0}
+  armorValue: 0
+  attackPower: 0
+  durability: 0
+  maxDurability: 0
+  effect: 0
+  potency: 0
+  duration: 0
+  equipSlot: 0
+  bonusStrength: 0
+  bonusDexterity: 0
+  bonusVitality: 0
+  bonusEnergy: 0
+  fireDamage: 0
+  coldDamage: 0
+  lightningDamage: 0
+  poisonDamage: 0
+  fireResistance: 0
+  coldResistance: 0
+  lightningResistance: 0
+  poisonResistance: 0
+  fasterHitRecovery: 0
+  increasedAttackSpeed: 0
+  fasterCastRate: 0
+  lifeSteal: 0
+  manaSteal: 0
